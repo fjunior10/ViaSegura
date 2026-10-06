@@ -1,56 +1,56 @@
-# Welcome to your Expo app 👋
+# 🚧 ViaSegura
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo colaborativo para registro, mapeamento e acompanhamento de problemas nas vias públicas.
 
-## Get started
+## 🎯 Objetivo
 
-1. Install dependencies
+O ViaSegura tem como objetivo permitir que cidadãos registrem problemas encontrados nas vias públicas, como buracos, sinalização danificada e outras situações que possam representar riscos.
 
-   ```bash
-   npm install
-   ```
+A proposta é facilitar a identificação desses problemas, permitir que a comunidade acompanhe as ocorrências e contribuir para a melhoria da segurança nas vias.
 
-2. Start the app
+## ✨ Funcionalidades planejadas
 
-   ```bash
-   npx expo start
-   ```
+- 📍 Registro de ocorrências
+- 📷 Adição de fotos
+- 🗺️ Localização das ocorrências no mapa
+- ⚠️ Classificação do nível de risco
+- 👥 Confirmação de ocorrências pela comunidade
+- 🔄 Acompanhamento do status das ocorrências
+- 📊 Dashboard com estatísticas
+- 📱 Interface para dispositivos móveis
 
-In the output, you'll find options to open the app in a
+## ⚠️ Classificação de risco
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Nível | Descrição |
+|---|---|
+| 🟢 Baixo | Problema de menor impacto |
+| 🟡 Médio | Pode causar danos ou exigir atenção |
+| 🔴 Alto | Pode representar risco significativo de acidentes |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🔄 Status das ocorrências
 
-## Get a fresh project
+As ocorrências poderão passar pelos seguintes estados:
 
-When you're ready, run:
+**Registrada → Em análise → Em andamento → Resolvida**
 
-```bash
-npm run reset-project
-```
+## 🛠️ Tecnologias
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo
+- TypeScript
+- Git
+- GitHub
 
-### Other setup steps
+## 📌 Status do projeto
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+🚧 **Em desenvolvimento**
 
-## Learn more
+O projeto está em fase inicial de desenvolvimento e estruturação.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🎓 Projeto acadêmico
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Projeto desenvolvido como parte das atividades acadêmicas da FATEC.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**ViaSegura — Juntos por vias mais seguras. 🚧**
